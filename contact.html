@@ -13,12 +13,15 @@
 
     <script src="https://kit.fontawesome.com/318ad1cad1.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="top bg-success">
-        <img src="" alt="">
+        <!-- <img src="" alt=""> -->
         <h1 class="text-center"><a href="index.html">StephanieSites</a></h1>
+        <!-- Hamburger Menu?? -->
         <nav>
             <ul class="d-none d-lg-block">
                 <li><a href="#top">Contact</a></li>
@@ -28,7 +31,7 @@
                 <button class="btn navbar-toggler d-block mx-auto text-light" type="button" data-bs-toggle="dropdown">
                     <i class="fa-solid fa-bars"></i>
                 </button>
-                <ul class="dropdown-menu border-0">
+                <ul class="dropdown-menu border-0 bg-light text-center">
                     <li><a href="#top" class="dropdown-item text-primary">Contact</a></li>
                     <li><a href="about.html" class="dropdown-item text-primary">About</a></li>
                 </ul>
@@ -36,10 +39,30 @@
         </nav>
     </header>
 
+    <div class="flex">
+        <section>
+            <h2>Phone Number</h2>
+            <p>(613) 727-4723</p>
+        </section>
+        <section>
+            <h2>Email</h2>
+            <p>dyck0026@algonquinlive.com</p>
+        </section>
+    </div>
+
+    <form action="placeholder.file" method="post">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <button type="submit" class="bttn">Contact</button>
+    </form>
 
 
     <footer class="bg-success">
-        <a href="#top">
+        <a href="#top" class="totop">
             <i class="fa-solid fa-angle-up"></i>
         </a>
         <p>&copy; Copyright 2023</p>
