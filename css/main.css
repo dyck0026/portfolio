@@ -59,3 +59,65 @@ ul {
 
 
 /* DONE */
+
+:root {
+	--lightPink: #ffc9df;
+	--pink: #ff94b4 ;
+	--purple: #873f97;
+	--lightYellow: #ffefc3;
+	--blue: #9afff8;
+}
+
+.text-primary {
+	color: var(--purple) !important; 
+}
+.bg-secondary {
+	background-color: var(--lightPink) !important;
+}
+.bg-success {
+	background-color: var(--pink) !important;
+}
+.text-success {
+	color: var(--pink) !important;
+}
+.text-light {
+	color: var(--lightYellow) !important;
+}
+
+
+
+
+body {
+	color: var(--purple);
+	background-color: var(--lightPink);
+	font-family: 'Quicksand', sans-serif;
+}
+a {
+	color: var(--purple);
+}
+a:hover {
+	color: var(--lightYellow);
+}
+h1,h2,h3,h4 {
+	font-family: 'Lobster', cursive;
+}
+footer {
+	margin-top: 2.5rem;
+	text-align: center;
+	padding: 1rem;
+}
+a.bttn {
+	background-color: var(--lightYellow);
+	border: .15rem solid var(--blue);
+	border-radius: 1.5rem;
+	padding: .55rem;
+}
+hr {
+	margin: 2.5rem auto;
+	border-top: .1rem solid var(--purple);
+	opacity: 1;
+}
+.wrapper {
+	margin: auto 2.5rem;
+	text-align: center;
+}
