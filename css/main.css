@@ -242,4 +242,7 @@ main h2 {
 		text-align: start !important;
 		padding-top: .5rem;
 	}
+	.totop {
+		padding: .5rem .6rem;
+	}
 }
